@@ -28,7 +28,7 @@ export default function Images({ images }) {
           <ImageListItem key={image.name}>
             <img
               key={image.name}
-              //srcSet={`${image.aws_image_src} 2x`}
+              srcSet={`${image.aws_image_src} 2x`}
               src={image.aws_image_src}
               alt={image.title}
               loading="lazy"
