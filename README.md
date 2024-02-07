@@ -1,11 +1,12 @@
 # Semantic Image Search Demo
 
-A simple frontend for demoing my [Semantic Image Search API](https://github.com/mattfergoda/semantic-image-search).
+A simple frontend for demoing [Semantic Image Search API](https://github.com/mattfergoda/semantic-image-search).
 
 A user can input a text query and use AI to quickly search 25,000 images in a database based on the their content.
 
 The API leverages [OpenAI's CLIP model](https://openai.com/research/clip) and [Unsplash's open source image dataset](https://github.com/mattfergoda/semantic-image-search).
 
+[Link to the live demo](https://demo.simsearch.mattfergoda.me/)
 
 ## Here's the create-react-app boiler plate:
 
