@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Semantic Image Search Demo
+
+A simple frontend for demoing my [Semantic Image Search API](https://github.com/mattfergoda/semantic-image-search).
+
+A user can input a text query and use AI to quickly search 25,000 images in a database based on the their content.
+
+The API leverages [OpenAI's CLIP model](https://openai.com/research/clip) and [Unsplash's open source image dataset](https://github.com/mattfergoda/semantic-image-search).
+
+
+## Here's the create-react-app boiler plate:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
