@@ -1,4 +1,4 @@
-const BASE_API_ENDPOINT = "http:54.212.9.195:8000/images/"
+const BASE_API_ENDPOINT = "http:35.86.74.230:8000/images/"
 
 /** Get all images
  * Fetches images from the api with an optional search term q.
