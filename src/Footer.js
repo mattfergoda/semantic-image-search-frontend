@@ -7,7 +7,13 @@
 export default function Footer() {
   return (
     <footer>
-      <p>Built by Matt Fergoda</p>
+      <p>Built by <space />
+        <a href="https://www.linkedin.com/in/matt-fergoda/"
+          target="_blank"
+          rel="noreferrer">
+          Matt Fergoda
+        </a>
+      </p>
       <p>Powered by <a
         href="https://openai.com/research/clip"
         target="_blank"
@@ -22,7 +28,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer">
           Demo Repo
-        </a> | <space/> 
+        </a> | <space />
         <a
           href="https://github.com/mattfergoda/semantic-image-search"
           target="_blank"
