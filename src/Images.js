@@ -31,7 +31,7 @@ export default function Images({ images }) {
               srcSet={`${image.aws_image_src} 2x`}
               src={image.aws_image_src}
               alt={image.title}
-              loading="lazy"
+              loading="eager"
             />
           </ImageListItem>
         ))}
